@@ -13,13 +13,24 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\Schedule_Manager">
+      <UniqueIdentifier>{2d1d66bb-6d25-4952-b0f9-4249543dd527}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Schedule_Manager.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="Hello_World.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Schedule_Manager.cpp">
+      <Filter>소스 파일\Schedule_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Schedule_Category.cpp">
+      <Filter>소스 파일\Schedule_Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Schedule_Category.h">
+      <Filter>소스 파일\Schedule_Manager</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
