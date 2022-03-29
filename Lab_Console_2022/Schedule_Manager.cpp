@@ -8,7 +8,7 @@ enum class Do
 	Check		= 1,
 	Uncheck		= 2,
 	Statistics	= 3,
-	SaveAndQuit = 4,
+	SaveAndQuit	= 4,
 	Reset		= 999,
 };
 
